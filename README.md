@@ -1,40 +1,25 @@
-# Kare Simülasyonu
+# Square Simulation
 
-Bu proje, Python ve Pygame kullanılarak geliştirilmiş bir kare simülasyonunu içerir. Kare, belirli bir parkurda rastgele bir başlangıç konumuna yerleştirilir ve belirli bir hızda hareket eder. Kare, parkurun kenarlarına çarptığında yönünü değiştirir.
+This project contains a square simulation developed using Python and Pygame. The square is placed at a random starting position on a track and moves at a specific speed. When the square hits the edges of the track, it changes its direction.
 
-## Kurulum
+## Installation
 
-Bu projeyi bilgisayarınıza klonlayın veya indirin:
+Clone or download this project to your computer:
 
 ```bash
 git clone https://github.com/AhmetBeratKocyigit/Kare-Simulasyonu
 ```
 
-Python ve Pygame kurulu olmalıdır. Python'u [buradan](https://www.python.org/) indirebilir ve yükleyebilirsiniz. Pygame kütüphanesini yüklemek için aşağıdaki komutu kullanın:
+To install the Pygame library, use the following command:
 
 ```bash
 pip install pygame
 ```
 
-## Kullanım
+The square simulation will start. The square will begin at a random position within the track and will move at a specific speed. When the square hits the edges of the track, it will change its direction.
 
-Proje dizinine gidin:
+## Features
 
-```bash
-cd kare-simulasyonu
-```
-
-Kodu çalıştırın:
-
-```bash
-python parkur.py
-```
-
-Kare simülasyonu başlayacaktır. Kare, parkurun içinde rastgele bir konumda başlayacak ve belirli bir hızda hareket edecektir. Kare parkurun kenarlarına çarptığında yönünü değiştirecektir.
-
-## Özellikler
-
-- Kare rastgele bir konuma yerleştirilir.
-- Kare belirli bir hızda hareket eder.
-- Kare parkurun kenarlarına çarptığında yönünü değiştirir.
-
+- The square is placed in a random position.
+- The square moves at a specific speed.
+- The square changes direction when it hits the edges of the track.
